@@ -2,6 +2,11 @@
 
 A simple interactive script/Ansible playbook that sets up an Ubuntu-based Wireguard VPN server
 
+##Before installing
+
+`iptables -P INPUT ACCEPT`
+`iptables --flush`
+
 ### Usage
 
 ```
